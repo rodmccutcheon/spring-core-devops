@@ -92,6 +92,18 @@
 			</plugin>
 		</plugins>
 	</build>
-	
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>4ab4b6c77262-releases</name>
+			<url>http://18.220.103.113:8081/artifactory/libs-release-local</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>4ab4b6c77262-snapshots</name>
+			<url>http://18.220.103.113:8081/artifactory/libs-snapshot-local</url>
+		</snapshotRepository>
+	</distributionManagement>
 
 </project>
